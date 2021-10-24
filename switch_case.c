@@ -3,12 +3,16 @@ int main ()
 {
     int a,b;
     char character;
-    printf("character=");
-    scanf("%c",&character);
+    char name[10];
     printf("a=");
     scanf("%d",&a);
     printf("b=");
     scanf("%d",&b);
+    printf("character=");
+    scanf(" %c",&character);
+    //scanf("%c",&character);
+    //scanf(" %c",&name);
+    //printf("%d '%c'\n",character,character);
     switch (character)
     {
         case'a': 
